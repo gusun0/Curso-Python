@@ -43,7 +43,7 @@ complejo = 2j+2 #complejo
 #print(complejo)
 
 lista = [1,2,3] 
-print(lista) 
+#print(lista) 
 
 lista.append(4)
 
@@ -144,15 +144,15 @@ diccionario = {
         'edad': 5
         }
 
-print(diccionario['raza'])
-print(diccionario.get('nombre')) 
+#print(diccionario['raza'])
+#print(diccionario.get('nombre')) 
 diccionario['nombre'] = 'Newton' 
-print(len(diccionario),diccionario) 
+#print(len(diccionario),diccionario) 
 
 #agregando un nuevo elemento 
 
 diccionario['ronronea'] = 'si' 
-print(diccionario) 
+#print(diccionario) 
 
 
 #FORMA 1 DE BORRAR ELEMENTOS 
@@ -165,10 +165,49 @@ print(diccionario)
 
 
 #FORMA 3 DE BORRAR CON FUNCION DEL 
-copiaDiccionario = diccionario.copy()
 del diccionario['ronronea']
-print(diccionario,copiaDiccionario) 
+#forma 1 de copíar un diccionario 
+#copiaDiccionario = diccionario.copy() 
 
+#FORMA NO 2 DE COPIAR UN DICCIONARIO
+copiaDiccionario = dict(diccionario)
+#para eliminar todos los datos de un diccionario 
+diccionario.clear()
+#print(diccionario,copiaDiccionario) 
+
+
+#DICCIONARIOS ANIDADOS
+
+fluffy = {
+        "nombre": 'Fluffy',
+        "edad": 4
+}
+
+mamba = {
+        "nombre": 'Mamb',
+        "edad":12
+}
+
+
+
+gatitos = {
+        "Fluffy": fluffy,
+        "Mamba": mamba
+}        
+
+print(gatitos)
+
+
+perritos = dict(nombre="Tesla",edad="5")
+print(perritos) 
+
+
+
+#DATOS BOOLEANOS
+
+verdadero  = True
+falso = False
+print(verdadero,falso)
 
 
 
