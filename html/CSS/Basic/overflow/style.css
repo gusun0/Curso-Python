@@ -1,0 +1,32 @@
+/*se utiliza overflow para ocupar todo el espacio de la delimitacion que usas*/
+
+
+div p {
+	color: red;
+}
+
+
+img{
+	float: left;
+	opacity: 0.6;
+}
+
+img:hover{
+	opacity: 1;
+}
+
+
+
+
+
+/*OVERFLOW 
+VISIBLE
+HIDDEN
+SCROLL
+overflow-x, overflow-x,y
+*/
+/*#over{
+	width: 100px;
+	height: 100px;
+	overflow-x: scroll;
+}*/

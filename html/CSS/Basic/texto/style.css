@@ -1,0 +1,27 @@
+body{
+	background-color: #ccc;
+}
+p{
+	color: black;
+	text-align: justify;
+	font-family: sans-serif;
+}
+
+a,p{
+	font-family: "Arial";
+	font-weight: 100;
+	font-style: italic;
+	font-size: 1.5em;
+	text-decoration: underline;
+	color: #000;
+	text-transform: uppercase;
+	text-transform: lowercase;	
+	text-transform: capitalize;
+	text-indent: 90px;
+	letter-spacing: none;
+	line-height: 2rem;
+	word-spacing: 30px;
+	/*text-shadow: 5px 2px 2px rgba(0,0,0,0.5);*/
+
+}
+
