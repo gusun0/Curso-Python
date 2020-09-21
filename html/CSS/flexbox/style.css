@@ -1,0 +1,37 @@
+
+.flex{
+	background-color: #c4c4c4;
+	/*para que se baje el contenido*/
+	/*flex-direction: row-reverse;*/
+	/*flex-wrap: wrap-reverse;*/
+
+	display: flex;
+	flex-flow: row wrap;
+	height: 200px;
+
+}
+
+.primero{
+	/*flex-grow: 1;
+	flex basis se utiliza para darle un tamaño inicial 
+	flex-basis: 100px;*/
+
+	/*forma corta */
+	flex: 1 100px;
+	align-self: center;
+	justify-content: center;
+	/*align-items: center;*/
+	text-align: center;
+
+
+
+}
+
+.sexto{
+	flex-grow: 6;
+
+}
+
+.red{
+	background-color: red;
+}
